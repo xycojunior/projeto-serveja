@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #590202;
+}
+header{
+}
+header ul{
+    background-color: #fff;
+    color: #590202;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul li{
+    list-style-type: none;
+}
+.pesquisa{
+    background-color: #590202;
+    color:#fff;
+    width: 280px;
+    height: 40%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer{
+    background-color: #fff;
+    height: 80px;
+    width: 100vw;
+    
+}
