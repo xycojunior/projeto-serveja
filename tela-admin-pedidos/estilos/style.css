@@ -3,22 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
    background-color: #590202;
 }
 header{
+    padding-bottom: 80px;
 }
 header ul{
     background-color: #fff;
-    color: #590202;
-    height: 80px;
+    height: 85px;
     width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-header ul li{
+header li {
     list-style-type: none;
+}
+header a{
+    text-decoration: none;
+    color: #590202;
 }
 .pesquisa{
     background-color: #590202;
@@ -30,9 +35,33 @@ header ul li{
     justify-content: space-around;
     align-items: center;
 }
-footer{
+.bola li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.statusPedido{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h2{
+    color: #fff;
+}
+.statusPedido ul{
+    margin-top:10px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: #fff;
-    height: 80px;
-    width: 100vw;
+
+    padding: 20px;
+    border-radius: 10px;
+}
+.statusPedido a{
+    text-decoration: none;
+    color: #590202;
+}
+footer{
     
 }
