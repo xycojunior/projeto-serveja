@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serve Já</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <ul>
+        <ul class="top">
             <img src="" alt="">
             <li><a href="">Início</a></li>
             <li><a href="">Pedidos</a></li>
@@ -17,17 +17,56 @@
             <li><a href="">Clientes</a></li>
             <div class="pesquisa">
                 <img src="" alt="">
-                <p>Busque por um pedido</p>
+                <input type="text" placeholder="Busque por um pedido">
             </div>
         </ul>
     </header>
     <main>
         <div class="container">
-            <div><img src="" alt=""></div>
-            <div class="card">
-                <div class="dados">
-                    
+            <div class="status">
+                <div class="box">
+                    <p>Status dos pedidos</p>
+                    <ul>
+                        <li><span class="primeiro">N</span>   Novos pedidos</li>
+                        |
+                        <li><span class="segundo">N</span>   Em espera</li>
+                        |
+                        <li><span class="terceiro">N</span>   Em preparo</li>
+                        |
+                        <li><span class="quarto">N</span>   Entregue</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="grid-container">
+                <div class="dados">
+                    <p class="pedido">ID PEDIDO: <span>N_ID</span></p>
+                    <p>Cliente: <span>__nome__</span></p>
+                    <p>Mesa: <span>N_MESA</span></p>
+                    <p>Comanda: <span>N_COMANDA</span></p>
+                    <input type="submit" value="Veja mais detalhes aqui">
+                </div>
+                <div class="dados">
+                    <p class="pedido">ID PEDIDO: <span>N_ID</span></p>
+                    <p>Cliente: <span>__nome__</span></p>
+                    <p>Mesa: <span>N_MESA</span></p>
+                    <p>Comanda: <span>N_COMANDA</span></p>
+                    <input type="submit" value="Veja mais detalhes aqui">
+                </div>
+                <div class="dados">
+                    <p class="pedido">ID PEDIDO: <span>N_ID</span></p>
+                    <p>Cliente: <span>__nome__</span></p>
+                    <p>Mesa: <span>N_MESA</span></p>
+                    <p>Comanda: <span>N_COMANDA</span></p>
+                    <input type="submit" value="Veja mais detalhes aqui">
+                </div>
+                <div class="dados">
+                    <p class="pedido">ID PEDIDO: <span>N_ID</span></p>
+                    <p>Cliente: <span>__nome__</span></p>
+                    <p>Mesa: <span>N_MESA</span></p>
+                    <p>Comanda: <span>N_COMANDA</span></p>
+                    <input type="submit" value="Veja mais detalhes aqui">
+                </div>
+                
             </div>
         </div>
     </main>
