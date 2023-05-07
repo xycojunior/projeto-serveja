@@ -76,12 +76,11 @@ input::placeholder{
 
 .lista ul{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   list-style-type: none;
-
 }
 .lista ul li{
-  margin: 0px 14% 0px 0%;
+  margin: 0px 19% 0px 0%;
 }
 .row{
   display: flex;
