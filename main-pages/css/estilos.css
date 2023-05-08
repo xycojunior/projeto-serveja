@@ -51,6 +51,14 @@ a{
     background-color: #191a1a;
 }
 
+nav i {
+    color: black;
+}
+
+.carti{
+    margin-left: .6rem;
+}
+
 .card-text{
     color: white;
 }
