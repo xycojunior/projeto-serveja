@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background-color: #590202;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 70px;
+  
+}
+.nav ul li a{
+  display: flex;
+  padding: 0px 60px;
+  justify-content: space-around;
+}
+.navbar-brand ul li a{
+    background-color: #F28705;
+    color: #F28705;
+}
+header ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 23px;
+  justify-content: space-around;  
+  
+}
+header ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+header ul li:hover{
+  transform: scale(1.1);
+  transition: .1s;
+  font-size: 1rem;
+  
+}
+header ul li a:hover{
+  color: #F28705;
+}
+
+.pesquisa input{
+  padding: 9px;
+  padding-right: .5rem;
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+}
+.pesquisa input:hover{
+  
+}
+.pesquisa button{
+  background-color: #F28705;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.pesquisa button:hover{
+  background-color: #ffb152;
+  color: #590202;
+}
+input::placeholder{
+  color:#590202;
+  font-weight: light;
+  font-family: 'Poppins', sans-serif;
+}
+
+.lista ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.lista ul li{
+  margin: 0px 19% 0px 0%;
+}
+.row{
+  display: flex;
+  margin: 0px 50px 0px 50px;
+}
+.card{
+  display: grid;
+  background-color: #590202;
+  color: white;
+  padding: 20px;
+  width: 40%;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 200px solid black;
+}
+.card h2{
+  padding: 14px 0px 14px 0px;
+  margin: 0px 10px 0px 0px;
+}
+.card p{
+  padding-bottom: 16px;
+
+}
+.card button{
+  background-color: #F28705;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 5px 0;
+  margin: 2px 0;
+  border-radius: 5px;
+ 
+  
+}
+.card button:hover{
+  color: #590202;
+  background-color: aliceblue;
+}
+.imagens{
+  margin: 10px 50px 0px 0px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  padding-left: 40px;
+}
+footer{
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+footer a{
+  text-decoration: none;
+}
