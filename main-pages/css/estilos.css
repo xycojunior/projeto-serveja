@@ -88,6 +88,7 @@ nav i {
     transform: scale(1.05);
     transition: .3s;
 }
+
 @media (min-width: 768px) {
     .jumbotron {
         padding-top: calc(var(--jumbotron-padding-y) * 2);
@@ -119,3 +120,4 @@ footer p {
 .box-shadow {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
+
