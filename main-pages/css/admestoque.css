@@ -1,89 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-header{
+header {
   background-image: linear-gradient(to bottom, #b40303, #590202);
   margin-bottom: 130px;
 }
-header ul{
+header ul {
   display: flex;
   align-items: center;
   list-style-type: none;
-  justify-content: space-around;  
+  justify-content: space-around;
   height: 80px;
-  
 }
-header ul li a{
+header ul li a {
   text-decoration: none;
   color: white;
   font-weight: 500;
 }
-header a:hover{
-  color: #F28705;
+header a:hover {
+  color: #f28705;
 }
 
-.pesquisa input{
+.pesquisa input {
   padding: 10px 40px;
-  padding-right: .7rem;
+  padding-right: 0.7rem;
   font-size: 1rem;
   background-color: white;
   border-radius: 10px;
   border: none;
 }
 
-input::placeholder:focus{
+input::placeholder:focus {
   color: white;
   font-weight: lighter;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.pesquisa button{
-  background-color: #F28705;
+.pesquisa button {
+  background-color: #f28705;
   color: white;
   padding: 12px;
   border-radius: 8px;
   border: none;
 }
-.pesquisa button:hover{
+.pesquisa button:hover {
   background-color: #ce2c2c;
   color: white;
 }
-.container{
+.container {
   display: grid;
   margin: 50px;
 }
-.produtos{
+.produtos {
   display: flex;
   margin: 30px;
   align-items: center;
   justify-content: space-between;
-  background-color: #590202;
+  background-image: linear-gradient(to bottom, #b40303, #590202);
   color: white;
   border-radius: 10px;
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.014);
   box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.377);
 }
-.produtos p, a{
-  padding: 0  6px;
+.produtos p,
+a {
+  padding: 0 6px;
 }
-.produtos img{
+.produtos img {
   width: 60px;
   height: 60px;
 }
-.produtos a{
-  color: #F28705;
+.produtos a {
+  color: #f28705;
 }
-.produtos a:hover{
+.produtos a:hover {
   color: #ffb356;
 }
 .btn-ver-mais {
-  background-color: #F28705;
+  background-color: #f28705;
   color: white;
   border: none;
   padding: 10px;
@@ -104,7 +104,7 @@ input::placeholder:focus{
   border-radius: 5px;
   margin-top: 10px;
 }
-button:hover{
+button:hover {
   background-color: #ce2c2c;
 }
 .menubar li {
@@ -116,11 +116,11 @@ button:hover{
   background-color: #ddd;
 }
 
-footer{
+footer {
   padding: 40px;
   display: flex;
   justify-content: space-between;
 }
-footer a{
+footer a {
   text-decoration: none;
 }
