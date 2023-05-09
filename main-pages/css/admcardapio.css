@@ -78,6 +78,7 @@ input::placeholder:focus{
 }
 .card h2, p, a{
   text-align: center;
+
 }
 .card h2{
   padding: 14px 0px 14px 0px;

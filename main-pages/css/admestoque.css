@@ -7,7 +7,7 @@
 }
 
 header{
-  background-color: #590202;
+  background-image: linear-gradient(to bottom, #b40303, #590202);
   margin-bottom: 130px;
 }
 header ul{
