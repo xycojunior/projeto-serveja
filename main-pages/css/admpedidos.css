@@ -186,6 +186,41 @@ input::placeholder{
 .float-end{
     margin-left: 20px;
 }
+.btn-ver-mais {
+    background-color: #F28705;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .btn-ver-mais:focus .menubar {
+    display: block;
+  }
+  
+  .menubar {
+    display: none;
+    background-color: #f9f9f9;
+    color: #590202;
+    padding: 10px;
+    list-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+.menubar li {
+    padding: 5px 0;
+    cursor: pointer;
+}
+  
+.menubar li:hover {
+    background-color: #ddd;
+}
+.menubar a{
+    color: #590202;
+}
 footer{
     padding: 20px;
     display: flex;

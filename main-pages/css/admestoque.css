@@ -53,6 +53,69 @@ input::placeholder:focus{
   background-color: #ce2c2c;
   color: white;
 }
+.container{
+  display: grid;
+  margin: 50px;
+}
+.produtos{
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #590202;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.014);
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.377);
+}
+.produtos p, a{
+  padding: 0  6px;
+}
+.produtos img{
+  width: 60px;
+  height: 60px;
+}
+.produtos a{
+  color: #F28705;
+}
+.produtos a:hover{
+  color: #ffb356;
+}
+.btn-ver-mais {
+  background-color: #F28705;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-ver-mais:focus .menubar {
+  display: block;
+}
+
+.menubar {
+  display: none;
+  background-color: #f9f9f9;
+  color: #590202;
+  padding: 10px;
+  list-style: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+button:hover{
+  background-color: #ce2c2c;
+}
+.menubar li {
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.menubar li:hover {
+  background-color: #ddd;
+}
+
 footer{
   padding: 40px;
   display: flex;

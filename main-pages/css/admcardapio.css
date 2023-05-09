@@ -68,7 +68,6 @@ input::placeholder:focus{
   margin: 0px 50px 0px 50px;
 }
 .card{
-  display: grid;
   background-color: #590202;
   color: white;
   padding: 20px;
@@ -77,34 +76,89 @@ input::placeholder:focus{
   border-radius: 5px;
   box-shadow: 200px solid black;
 }
+.card h2, p, a{
+  text-align: center;
+}
 .card h2{
   padding: 14px 0px 14px 0px;
   margin: 0px 10px 0px 0px;
 }
+.card h4{
+  background-color: green;
+  width: 60px;
+  padding: 5px;
+  border-radius: 5px;
+  padding-left: 13px;
+  margin-bottom: 10px;
+}
 .card p{
   padding-bottom: 16px;
 
+}
+.card a{
+  color: white;
+  background-color: #F28705;
+  font-size: 1.4rem;
+  border-radius: 3px;
+  padding: 4px;
+  text-decoration: none;
+}
+.card a:hover{
+  background-color: #a10909;
 }
 .card button{
   background-color: #F28705;
   color: white;
   font-weight: bolder;
   text-transform: uppercase;
-  padding: 5px 0;
   margin: 2px 0;
   border-radius: 5px;
-
 }
 .card button:hover{
-  color: #590202;
-  background-color: aliceblue;
+  background-color: #a10909;
 }
+
 .imagens{
   margin: 10px 50px 0px 0px;
   width: 300px;
   height: 200px;
   border-radius: 10px;
   padding-left: 40px;
+}
+.btn-ver-mais {
+  background-color: #F28705;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-ver-mais:focus .menubar {
+  display: block;
+}
+
+.menubar {
+  display: none;
+  background-color: #f9f9f9;
+  color: #590202;
+  padding: 10px;
+  list-style: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.menubar li {
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.menubar li:hover {
+  background-color: #ddd;
+}
+.menubar a{
+  color: #590202;
 }
 footer{
   padding: 40px;
