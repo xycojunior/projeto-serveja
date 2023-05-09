@@ -18,8 +18,8 @@ header ul{
     display: flex;
     align-items: center;
     list-style-type: none;
-    justify-content: space-evenly;  
-    height: 60px;
+    justify-content: space-around;  
+    height: 80px;
     
 }
 header ul li a{
@@ -32,7 +32,7 @@ header a:hover{
 }
 
 .pesquisa input{
-    padding: .7rem;
+    padding: 10px 40px;
     padding-right: .9rem;
     font-size: 1rem;
     background-color: #590202;

@@ -8,71 +8,52 @@
 
 header{
   background-color: #590202;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-bottom: 70px;
-  
-}
-.nav ul li a{
-  display: flex;
-  padding: 0px 60px;
-  justify-content: space-around;
-}
-.navbar-brand ul li a{
-    background-color: #F28705;
-    color: #F28705;
+  margin-bottom: 130px;
 }
 header ul{
   display: flex;
   align-items: center;
   list-style-type: none;
-  padding: 23px;
   justify-content: space-around;  
+  height: 80px;
   
 }
 header ul li a{
   text-decoration: none;
   color: white;
+  font-weight: 500;
 }
-
-header ul li:hover{
-  transform: scale(1.1);
-  transition: .1s;
-  font-size: 1rem;
-  
-}
-header ul li a:hover{
+header a:hover{
   color: #F28705;
 }
 
 .pesquisa input{
-  padding: 9px;
-  padding-right: .5rem;
+  padding: 10px 40px;
+  padding-right: .7rem;
   font-size: 1rem;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
 }
-.pesquisa input:hover{
-  
+
+input::placeholder:focus{
+  color: white;
+  font-weight: lighter;
+  font-family: 'Poppins', sans-serif;
 }
+
 .pesquisa button{
   background-color: #F28705;
   color: white;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
 }
 .pesquisa button:hover{
-  background-color: #ffb152;
-  color: #590202;
+  background-color: #ce2c2c;
+  color: white;
 }
-input::placeholder{
-  color:#590202;
-  font-weight: light;
-  font-family: 'Poppins', sans-serif;
-}
+
 
 .lista ul{
   display: flex;
