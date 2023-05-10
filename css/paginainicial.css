@@ -205,6 +205,19 @@ input::placeholder:focus {
   border-radius: 5px;
   cursor: pointer;
 }
+.menu {
+  background-image: linear-gradient(to bottom, #ffa436, #ff6600);
+  padding: 8px;
+  width: 50px;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu:hover {
+  background-image: linear-gradient(to bottom, #b40303, #590202);
+}
 .carrinho a {
   color: white;
   text-decoration: none;
