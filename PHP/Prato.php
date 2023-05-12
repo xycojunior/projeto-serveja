@@ -3,7 +3,7 @@
 class Prato{
     protected string $nome_prato;
     protected string $descricao;
-    protected string $preço;
+    protected string $preco;
 
     function getNome_Prato(){
         return $this->nome_prato;
@@ -19,10 +19,10 @@ class Prato{
         $this->descricao = $descricao;
     }
 
-    function getPreço(){
-        return $this->preço;
+    function getpreco(){
+        return $this->preco;
     }
-    function setPreço($preço){
-        $this->preço = $preço;
+    function setpreco($preco){
+        $this->preco = $preco;
     }
 }

@@ -4,13 +4,16 @@ require_once "Pessoa.php";
 require_once "Prato.php";
 require_once "Produtos.php";
 
-$cliente = new Cliente("Hudson","teste@teste.com",1234,"012.123.789-70");
-$funcionario = new Funcionario("Daniel","teste@teste.com",1234,"521.658.978-80");
-$produto = new Produtos("Pão","412Ab123nias",10);
-$prato = new Prato("X-bacon","Hamburguer com pão,carne....","R$ 16,50");
+$pessoa = new Pessoa();
+$prato = new Prato();
+$produtos = new Produtos();
+$cliente = new Cliente();
+$funcionario = new Funcionario();
+$adm = new Adm();
 
 /*LOGIN*/
 @include 'config.php';
+
 if(isset($_POST['nome da teg exp "submit"'])){
     
     $nome = mysqli_real_escape_string($coon, $_POST['/*nome da teg exp "name"*/']);
@@ -19,7 +22,7 @@ if(isset($_POST['nome da teg exp "submit"'])){
     $senhac = md5($_POST['nome da teg exp "senhac"']);
     $user_type = $_POST['nome da teg exp "user_type"'];
 
-    $select = "SELECT * FROM user_form WHERE email = '$email' && password = '$senha'";
+    $select = "SELECT * FROM cliente WHERE email = '$email' && senha = '$senha'";
 
     $result = mysqli_query($coon, $select);
 
@@ -31,7 +34,7 @@ if(isset($_POST['nome da teg exp "submit"'])){
             $erro[] = 'A senha não corresponde!';
         }
         else{
-            $inser = "INSERT INTO user_form(nome, email, password, user_type) VALUES('$nome','$email','$senha','$user_type')";
+            $inser = "INSERT INTO user_form(nome, email, senha) VALUES('$nome','$email','$senha')";
             mysqli_query($conn, $inser);
             header('location:/*Nome da pag do login*/');
         }

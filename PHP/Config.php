@@ -1,5 +1,14 @@
-<?php 
+<?php
 
-$conn = mysqli_connect('localhost','root','','user_db');
+class Conexao {
+    private static $instance;
 
+    public static function getConn(){
+
+        if (!isset(self::$instance)){
+            self::$instance = new \PDO('mysql:host=localhost;dbname=pdo', 'root', '');
+        }
+        return self::$instance;
+    }
+}
 ?>

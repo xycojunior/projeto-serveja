@@ -6,45 +6,44 @@ abstract class Pessoa{
     protected int $senha;
     protected string $cpf;
 
-    //Criação dos metodos
-    public function __construct($nome, $email, $senha){
-        $this->nome = $nome;
-        $this->email = $email;
-        $this->senha = $senha;
-    }
     public function getNome(){
         return $this->nome;
+    }
+    public function setNome($nome){
+        $this->nome = $nome;
     }
     public function getEmail(){
         return $this->email;
     }
+    public final function setEmail($email){
+        $this->email = $email;
+    }
     public function getSenha(){
         return $this->senha;
     }
+    public final function setSenha($senha){
+        $this->senha = $senha;
+    }
     public function getCPF(){
         return $this->cpf;
+    }
+    public function setCPF($cpf){
+        $this->cpf = $cpf;
     }
 }
 
 //Cliente
 class Cliente extends Pessoa{
-    public function __construct($nome, $email, $senha,$cpf){
-        parent::__construct($nome, $email,$senha,$cpf);
-    }
+
 }
 
 //Funcionario
 class Funcionario extends Pessoa{
-    public function __construct($nome, $email, $senha,$cpf){
-        parent::__construct($nome, $email,$senha,$cpf);
-    }
 }
 
 //ADM
 class ADM extends Pessoa{
-    public function __construct($nome, $email, $senha,$cpf){
-        parent::__construct($nome, $email,$senha,$cpf);
-    }
+
 }
 
 //Função login
