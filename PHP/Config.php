@@ -1,14 +1,12 @@
 <?php
 
-class Conexao {
-    private static $instance;
+$usuario = 'root';
+$senha = '';
+$database = 'serve_ja';
+$host = 'localhost';
 
-    public static function getConn(){
+$mysqli = new mysqli($host, $usuario, $senha, $database);
 
-        if (!isset(self::$instance)){
-            self::$instance = new \PDO('mysql:host=localhost;dbname=pdo', 'root', '');
-        }
-        return self::$instance;
-    }
+if($mysqli->error) {
+    die("Falha ao conectar ao banco de dados: " . $mysqli->error);
 }
-?>
