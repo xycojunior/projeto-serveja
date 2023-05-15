@@ -6,3 +6,9 @@ CREATE TABLE `pessoa` IF NOT EXISTS.(
     `CPF` VARCHAR(11) NOT NULL , 
     PRIMARY KEY (`id`)
 );
+
+CREATE TABLE `serve_ja`.`login` (
+    `id` INT NOT NULL AUTO_INCREMENT , 
+    `nome` VARCHAR(140) NOT NULL ,
+    `email` VARCHAR(140) NOT NULL , 
+    `senha` VARCHAR(16) NOT NULL , PRIMARY KEY (`id`))
